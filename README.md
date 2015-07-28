@@ -12,8 +12,13 @@ Start the app with `node index.js`.
 Dependencies
 ----
 
-Backend: (run npm install).
-Frontend: Knockout and Nanoajax.
+###Backend (run `npm install`):
+- [cool-ascii-faces](https://www.npmjs.com/package/cool-ascii-faces)
+- [ecstatic](https://www.npmjs.com/package/ecstatic)
+
+###Frontend: 
+- [Knockout](http://knockoutjs.com/)
+- [nanoajax](https://github.com/yanatan16/nanoajax)
 
 Requirements
 ----
