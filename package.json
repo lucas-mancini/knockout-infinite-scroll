@@ -1,0 +1,15 @@
+{
+  "name": "knockout-infinite-scroll",
+  "version": "0.0.2",
+  "description": "Simple javascript application that uses Knockout to display products in a grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "cool-ascii-faces": "~1.3.3",
+    "ecstatic": "~0.5.4"
+  }
+}
