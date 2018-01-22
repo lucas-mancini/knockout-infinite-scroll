@@ -7,7 +7,7 @@ The app is an ecommerce site, where you can buy all sorts of ascii faces like `(
 
 The goal is to keep it simple, no build process nor minification is done on the js code. In a production environment, it will be suggested to concatenate and minify the js code, but that is beyond the scope of this example.
 
-Start the app with `node index.js`.
+Start the app with `node index.js`, and then navigate to http://localhost:8000/.
 
 Dependencies
 ----
