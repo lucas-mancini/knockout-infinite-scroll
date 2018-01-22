@@ -1,7 +1,7 @@
 Knockout Infinite Scroll
 ====
 
-A simple javascript app, with minimal dependencies. The purpose is to display products in a grid, retrieved from a RESTful JSON API, and to show how to achieve this using Knockout library. 
+A simple javascript app, with minimal dependencies. The purpose is to display products in a grid, retrieved from a RESTful JSON API, and to show how to achieve this using Knockout library.
 
 The app is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ・∀・)ノ` and `¯_(ツ)_/¯`, in a wide variety of font sizes. The homepage should display a list of products for people to browse.
 
@@ -12,11 +12,11 @@ Start the app with `node index.js`.
 Dependencies
 ----
 
-###Backend (run `npm install`):
+### Backend (run `yarn install`):
 - [cool-ascii-faces](https://www.npmjs.com/package/cool-ascii-faces)
 - [ecstatic](https://www.npmjs.com/package/ecstatic)
 
-###Frontend: 
+### Frontend:
 - [Knockout](http://knockoutjs.com/)
 - [nanoajax](https://github.com/yanatan16/nanoajax)
 
@@ -47,4 +47,3 @@ Ads
 ----
 - after every 20 products we need to insert an advertisement from one of our sponsors. Use the same markup as the advertisement in the header, but make sure the `?r` query param is randomly generated each time an ad is displayed.
 - Ads should be randomly selected, but a user must never see the same ad twice in a row.
-
